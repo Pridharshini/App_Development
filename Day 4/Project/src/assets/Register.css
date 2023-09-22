@@ -1,0 +1,93 @@
+/* Base styles for all screen sizes */
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove body margin to prevent horizontal scrolling */
+    font-family: Arial;
+    background-color: #ffffff;
+    z-index: 1; /* Fallback background color */
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  form {
+    height: auto;
+    width: 100%; /* Set the form width to 100% initially */
+    max-width: 500px; /* Add a maximum width for larger screens */
+    margin: 0 auto; /* Center the form horizontally */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(164, 222, 255, 0.06);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(1, 130, 236, 0.37);
+    padding: 28px;
+    position: relative; /* Add relative positioning */
+    z-index: 3; /* Ensure the form is above the background image */
+  }
+  
+  input {
+    width: 100%;
+    margin: 10px 0; /* Reduce the margin for smaller screens */
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+  }
+  
+  label {
+    padding-left: 1px;
+  }
+  
+  input::placeholder {
+    color: rgba(12, 12, 12, 0.731);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 20px; /* Reduce margin-top for smaller screens */
+  }
+  @media (min-width: 1024px) {
+      .container {
+        margin-right: 200px; /* Increase the right margin for larger screens */
+      }
+    }
+  
+  button {
+    padding: 10px 15px; /* Increase padding for smaller screens */
+    background-color: rgb(106, 183, 238);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color: rgb(169, 202, 226);
+  }
+  
+  p {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  
+  /* Media query for screens smaller than 768px (e.g., mobile devices) */
+  @media (max-width: 767px) {
+    form {
+      width: calc(100% - 20px); /* Adjust the width using calc for smaller screens with increased width on both sides */
+    }
+  
+    input {
+      margin: 5px 0;
+    }
+  
+    button {
+      padding: 10px 15px;
+    }
+  }
+  
