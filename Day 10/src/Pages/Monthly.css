@@ -1,0 +1,73 @@
+/* src/Monthly.css */
+.monthly-schedule {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #f5f5f5;
+    position: absolute;
+    left:30%;
+    top:-90%;
+      
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    right:40%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .month-dropdown {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover td {
+    background-color: #e0e0e0;
+    transition: background-color 0.2s;
+  }
+  

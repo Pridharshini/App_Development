@@ -1,0 +1,113 @@
+/* StaffDirectory.css */
+
+.staff-directory {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    margin-top:-45%;
+    left:35%;
+
+  }
+  
+  .edit-button {
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5a5c5d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #5a5c5d;
+  }
+  
+  .categories {
+    margin: 20px 0;
+  }
+  
+  .categories button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 6%;
+  }
+  
+  .categories button.active {
+    background-color: #5a5c5d;
+    color: #fff;
+  }
+  
+  .categories button:hover {
+    background-color: #ddd;
+  }
+  
+  .profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .profile-table th,
+  .profile-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .profile-table th:first-child,
+  .profile-table td:first-child {
+    width: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #5a5c5d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination button:hover {
+    background-color:#5a5c5d;
+}
