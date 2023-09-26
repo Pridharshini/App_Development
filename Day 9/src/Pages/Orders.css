@@ -1,0 +1,59 @@
+/* orders.css */
+
+.container {
+    font-family: Arial, sans-serif;
+  position: fixed;
+     right:30%;
+    height: 50%;
+    top:20%
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse; /* Remove table borders */
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .header {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  
+  .cell {
+    display: table-cell;
+    padding: 10px;
+    border: none; /* Remove cell borders */
+    position: relative;
+  }
+  
+  .odd {
+    background-color: #f9f9f9;
+  }
+  
+  .even {
+    background-color: #ffffff;
+  }
+  
+  .status-pending {
+    padding: 5px 10px;
+    background-color: #ffe4b5; /* Pastel color for pending status */
+  }
+  
+  .status-delivered {
+    padding: 5px 10px;
+    background-color: #b5e7a0; /* Different color for delivered status */
+  }
+  
+  .status-refunded {
+    padding: 5px 10px;
+    background-color: #f5b5b5; /* Different color for refunded status */
+}
