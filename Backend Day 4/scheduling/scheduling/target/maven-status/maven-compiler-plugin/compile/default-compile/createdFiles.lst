@@ -1,0 +1,4 @@
+com\example\demo\entity\Login$LoginBuilder.class
+com\example\demo\entity\Login.class
+com\example\demo\enumerate\Role.class
+com\example\demo\repository\LoginRepository.class
