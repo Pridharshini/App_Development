@@ -1,0 +1,124 @@
+/* EmployeeDetails.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+
+.whole {
+  max-height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40%;
+  width: 270px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 255px;
+  box-shadow: 0px 5px 15px 0px rgba(153, 153, 153, 0.5);
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.profile-photo {
+  margin-top: 20px;
+  height: 50%;
+  width: 70%;
+  border-radius: 50%;
+}
+
+.top {
+  height: auto;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #ddd;
+  padding: 0px 16px;
+  text-align: center;
+}
+
+.name {
+  margin: 0;
+}
+
+.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 4px;
+  border-radius: 5px;
+  background-color: #60D156;
+}
+
+.title {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.time {
+  margin-top: 5px;
+  color: #444;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.bottom {
+  height: auto;
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 10px;
+  padding: 8px;
+  text-align: center;
+}
+
+.profile-action {
+  display: block;
+  width: 120%;
+  height: 40px;
+  font-family: inherit;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 4px;
+  border: 5px;
+  background-color: rgb(203, 203, 203);
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.profile-action:hover {
+  background-color: #eecd64;
+  color: white;
+}
+
+.add-button {
+  margin-top: 20%;
+  width: 10%;
+  height: 40px;
+  font-family: inherit;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(203, 203, 203);
+  margin: 20px auto;
+}
+
+.add-button:hover {
+  background-color: #98f980;
+}
+.add-button {
+  width: 150px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+   /* Adjust the margin as needed */
+ position:absolute;
+ top:15%;
+ left:15%; /* Adjust the margin as needed */
+}
